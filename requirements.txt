@@ -1,0 +1,20 @@
+# Core: everything needed to run every dashboard and test in this repo
+numpy
+pandas
+scipy
+statsmodels
+scikit-learn
+arch
+matplotlib
+plotly
+streamlit
+yfinance
+requests
+vectorbt
+pytest
+
+# Optional extras
+# alphalens-reloaded   # Alphalens Factor Analysis (falls back to a built-in implementation without it)
+# transformers torch   # FinBERT in NLP News Sentiment (~400MB model download on first run)
+# anthropic            # LLM summary of MD&A in the Financial Statement Analyser
+# alpaca-py            # live paper trading in Signal Bot and HF-Hub (free paper keys)
