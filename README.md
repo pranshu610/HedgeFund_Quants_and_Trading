@@ -4,7 +4,7 @@ Python projects in systematic trading, factor research, risk modelling and portf
 
 Most projects run as an interactive Streamlit dashboard, and many also have a command-line interface. Data comes from free public sources: Yahoo Finance, FRED, SEC EDGAR, Ken French's Data Library and NewsAPI.
 
-> I used AI assistance to debug code and learn new libraries. The research questions, financial logic and project design are my own, and I can walk through any line of it.
+> I used AI assistance to debug code and learn new libraries. The research questions, financial logic and project design are my own.
 
 ---
 
