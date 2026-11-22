@@ -1,0 +1,15 @@
+# --- core engine (required) ---
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3      # Ledoit-Wolf shrinkage in risk/allocation.py
+statsmodels>=0.14      # cointegration test in strategies/pairs_statarb.py
+
+# --- dashboard (required for the visual hub) ---
+streamlit>=1.30
+plotly>=5.18
+
+# --- real data / execution (optional; paper keys are free) ---
+# yfinance>=0.2.40      # free daily/intraday data  ->  HF_FEED=yfinance
+alpaca-py>=0.20         # real paper trading + market data (HF_FEED=alpaca, set ALPACA_KEY/ALPACA_SECRET)
+# ccxt>=4.0             # crypto exchange data/execution
