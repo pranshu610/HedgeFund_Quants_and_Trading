@@ -44,8 +44,7 @@ In normal markets, PC1 explains ~35% of variance — stocks have their own stori
 
 ---
 
-## What to say in an interview
-
+## Summary
 I applied PCA to a 15-stock universe using sklearn, standardising returns before fitting to prevent high-vol stocks from dominating. PC1 consistently explains the most variance and represents systematic market risk. I built long-short portfolios for each factor by going long the highest-loading stocks and shorting the lowest-loading ones. Rolling PCA on a 126-day window shows regime changes — when PC1 variance spikes above 60%, correlations have broken down and the factor structure has shifted. This is the statistical foundation for risk decomposition used at multi-strategy funds.
 
 ---

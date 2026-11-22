@@ -75,8 +75,7 @@ OLS regression of price A on price B gives the hedge ratio: how many shares of B
 
 ---
 
-## What I'd say in an interview
-
+## Summary
 I implemented a statistical arbitrage pairs trading model using Engle-Granger cointegration testing from statsmodels. The hedge ratio is estimated via OLS, the spread z-score is computed on a rolling 60-day window, and positions are entered when the z-score exceeds ±2σ and exited at ±0.5σ. I also implemented the Johansen test for multi-asset cointegration, which is more powerful for groups of stocks. The half-life of mean reversion is estimated via the Ornstein-Uhlenbeck equation — pairs with half-lives under 30 days are the most tradeable. The universe scanner evaluates all N×(N-1)/2 pairs and ranks them by both statistical significance and Sharpe ratio.
 
 ---

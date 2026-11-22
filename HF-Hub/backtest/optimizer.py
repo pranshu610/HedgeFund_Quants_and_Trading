@@ -4,7 +4,7 @@ backtest/optimizer.py
 Walk-forward parameter search. Grid-searches a strategy's `param_grid`, but
 scores each config on OUT-OF-SAMPLE walk-forward windows, not on the same data
 it was fitted on. This is the single most important guard against the overfit
-backtests that get candidates rejected at HF interviews.
+backtests that look great in-sample and fail live.
 
 For each split: optimise on the in-sample window, then record the config's
 performance on the next (unseen) out-of-sample window. The recommended config is

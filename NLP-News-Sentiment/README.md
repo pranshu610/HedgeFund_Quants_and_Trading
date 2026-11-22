@@ -82,8 +82,7 @@ A lexicon scores *"the stock failed to meet expectations"* as neutral — no neg
 
 ---
 
-## What to say in an interview
-
+## Summary
 I built an end-to-end NLP alpha research pipeline. Headlines are scraped from Yahoo Finance RSS and NewsAPI, classified using FinBERT (ProsusAI/finbert on HuggingFace), and aggregated to a daily z-score sentiment signal. I evaluated signal quality using IC — Spearman rank correlation against 1-day and 5-day forward returns. The lexicon fallback ensures the pipeline runs offline without GPU resources. The keyword model is a logistic regression on Fed/inflation keyword frequencies to predict 5-day SPY direction — this is a genuine macro NLP pipeline, not a toy sentiment project.
 
 ---

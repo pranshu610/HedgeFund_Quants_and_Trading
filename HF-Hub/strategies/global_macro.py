@@ -7,7 +7,7 @@ whatever the current regime rewards. This is the systematic version of a
 discretionary macro book: transparent if-this-then-that rules on economic data,
 not price signals.
 
-Answers the 'macro-based strategy' prompt: for each factor (rates / inflation /
+For each factor (rates / inflation /
 growth) it states how it affects each asset and produces entry/exit tilts.
 
 Macro data is monthly and RELEASED WITH A LAG, so every indicator is shifted one

@@ -70,8 +70,7 @@ Rolling standard deviation treats every day in the window equally — a spike 59
 
 ---
 
-## What I'd say in an interview
-
+## Summary
 I replicated the TSMOM strategy from Moskowitz, Ooi & Pedersen (2012). The signal is the sign of the trailing 12-month return on each asset — positive means long, negative means short. I scaled each position by target vol divided by realised vol, which keeps portfolio volatility approximately constant regardless of market regime. I used GARCH(1,1) for vol estimation rather than rolling std, because GARCH models variance persistence and is more responsive to regime changes. The position heatmap clearly shows the 2008 and 2020 crisis periods where the strategy correctly went short equities and long bonds.
 
 ---

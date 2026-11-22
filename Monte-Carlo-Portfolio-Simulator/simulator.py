@@ -76,7 +76,7 @@ def run_simulation(
     The (mu - sigma^2/2) term is the Ito correction - it adjusts the drift
     so the expected value of S(T) is S(0)*exp(mu*T).
     Without it, the average of many paths would drift lower due to
-    Jensen's inequality. This detail impresses interviewers.
+    Jensen's inequality.
     '''
     drift       = (daily_return - 0.5 * daily_vol**2)
     shocks      = np.random.standard_normal((n_simulations, n_days))

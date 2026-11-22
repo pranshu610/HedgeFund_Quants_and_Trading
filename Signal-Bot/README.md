@@ -89,8 +89,7 @@ When all four signals point the same direction, agreement = 100%. This is a conf
 
 ---
 
-## What to say in an interview
-
+## Summary
 I built a unified systematic trading system that aggregates four signals — time-series momentum, cross-sectional momentum, a volatility regime filter, and a moving average trend indicator — into a weighted ensemble. Each signal outputs a score between -1 and +1. The ensemble is a weighted average, normalised to sum to 1. I then apply volatility targeting — scaling each position by target_vol / realised_vol — which keeps portfolio volatility approximately constant. A drawdown stop zeroes all positions when the portfolio falls more than 20% from its peak, preventing momentum crash events from destroying the strategy. The execution layer connects to Alpaca's free paper trading API, meaning the system runs end-to-end with no real capital at risk. The weight sensitivity analysis identifies which signals add genuine value — if removing a signal reduces Sharpe, it's contributing positively.
 
 ---

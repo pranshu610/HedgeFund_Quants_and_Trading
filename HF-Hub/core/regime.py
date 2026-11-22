@@ -9,7 +9,7 @@ in chop, and cut gross exposure when volatility spikes.
 
 Everything here is causal (trailing windows only). No bar uses future data.
 
-Answers the 'market regime detection' prompt:
+Market regime detection:
   * Trend       — bull / bear / sideways   (100-bar regression slope + 200-MA)
   * Volatility  — low / normal / high / extreme  (rolling percentile of realised vol)
   * Volume      — rising / normal / falling  (20d vs 60d average volume)

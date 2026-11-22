@@ -43,8 +43,7 @@ PMI > 50 = expansion (growth rising). CPI YoY > 2.5% = high inflation.
 
 ---
 
-## What to say in an interview
-
+## Summary
 I built a macro regime classifier using FRED data — ISM PMI for growth and CPI for inflation — mapping the economy into Bridgewater's four All Weather quadrants. The model allocates to a different set of ETFs depending on the current regime: equities and credit when growth is rising and inflation is low, gold and commodities during stagflation, long bonds during deflation. I added the yield curve as a separate recession indicator — inversions have preceded every US recession since 1955, typically by 12-18 months. The backtest runs monthly rebalancing one period lagged to avoid look-ahead bias.
 
 ---

@@ -88,8 +88,7 @@ constrained quadratic optimisation (scipy SLSQP). The Max Sharpe portfolio maxim
 
 ---
 
-## What to say in an interview
-
+## Summary
 I implemented Markowitz mean-variance optimisation from scratch using scipy's SLSQP solver.
 I built the efficient frontier by sweeping target return levels and solving a constrained
 minimum-variance problem at each point. I found the tangency portfolio by maximising the

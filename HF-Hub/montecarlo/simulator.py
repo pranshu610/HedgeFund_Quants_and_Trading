@@ -7,7 +7,7 @@ Two complementary Monte Carlo tools:
    engine (unchanged in spirit): forward-simulate a portfolio's VALUE given
    assumed drift/vol, for VaR/CVaR/ruin. Good for portfolio-level what-ifs.
 
-2. bootstrap_strategy  — the STRATEGY-robustness test that answers prompt #9
+2. bootstrap_strategy  — the STRATEGY-robustness test
    ("is this strategy robust or fragile?"). It resamples the strategy's realised
    per-bar returns (block bootstrap to preserve autocorrelation) thousands of
    times to build a distribution of terminal equity, max drawdown, and the

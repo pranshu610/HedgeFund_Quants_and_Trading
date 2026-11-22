@@ -88,8 +88,7 @@ Without a key, a regex-based extraction finds risk and growth language automatic
 
 ---
 
-## What to say in an interview
-
+## Summary
 I built a fundamental analysis pipeline pulling 10-K data directly from SEC EDGAR's XBRL API — no paid data vendor. I implemented both the Piotroski F-Score (all 9 signals across profitability, leverage, and efficiency) and the Altman Z-Score from scratch. The peer comparison runs both scores across any user-defined universe, which is how a long/short equity analyst would screen for quality vs distress. I also integrated an LLM layer that fetches the MD&A section from the actual SEC filing and uses Claude to extract structured risk factors and growth drivers — this is the kind of pipeline that fundamental quant teams at long/short equity HFs are starting to build.
 
 ---

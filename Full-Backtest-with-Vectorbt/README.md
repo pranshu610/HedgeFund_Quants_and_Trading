@@ -37,8 +37,7 @@ Traditional backtests loop over dates one by one. vectorbt does everything in ve
 
 ---
 
-## What to say in an interview
-
+## Summary
 I implemented a professional momentum backtest using vectorbt's vectorised portfolio engine. The strategy uses 12-minus-1 cross-sectional momentum with monthly rebalancing, equal-weight or inverse-vol position sizing, and explicit transaction cost + slippage modelling. The parameter sweep runs 16 combinations across lookback windows and cost scenarios, with the Sharpe heatmap showing which combinations are robust vs which depend on low costs. The rolling 252-day Sharpe shows where the strategy's edge was strong and where it decayed.
 
 ---

@@ -52,8 +52,7 @@ Fraction of stocks that change quantile each month. High turnover = high transac
 
 ---
 
-## What to say in an interview
-
+## Summary
 I evaluated my momentum factor using the alphalens framework — the industry standard at Two Sigma, D.E. Shaw, and Millennium for factor research. I computed the IC (Spearman rank correlation of factor vs forward returns) at 1, 5, and 21-day horizons, the IC IR to measure consistency, and quantile return spreads to verify that top-ranked stocks actually outperform. The IC decay curve shows how quickly the signal fades — momentum IC typically peaks at 5-10 days and decays to zero around 30 days, confirming it is a medium-frequency signal that requires monthly rebalancing.
 
 ---

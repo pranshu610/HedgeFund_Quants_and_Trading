@@ -68,8 +68,7 @@ python tests.py
 
 ---
 
-## What to say in an interview
-
+## Summary
 I implemented CAPM and Fama-French 3-factor regressions from scratch using both scipy's linregress and raw matrix OLS `(X'X)⁻¹X'y`. I computed rolling 24-month estimates to detect alpha decay and beta drift. I built a return decomposition breaking average monthly return into its factor contributions. The multi-ticker view plots alpha vs beta with R² as bubble size — the standard way quants screen for genuine alpha versus leveraged market exposure.
 
 ---

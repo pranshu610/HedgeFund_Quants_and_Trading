@@ -96,8 +96,7 @@ Fraction of paths that ended above the starting value.
 
 ---
 
-## What to say about this in an interview
-
+## Summary
 I built a Monte Carlo portfolio risk engine using Geometric Brownian Motion with an Ito-corrected drift term. I simulated 10,000 paths, computed VaR and CVaR at 95% and 99% confidence levels, and measured probability of ruin across different loss thresholds. I extended the model to multi-asset portfolios using Cholesky decomposition to inject correlated return shocks. I also built a volatility sensitivity analysis showing the non-linear relationship between vol and tail risk.
 
 ---
